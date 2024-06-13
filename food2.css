@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap'); */
+body{
+    background-color: blue;
+}
+
+.heading {
+    color: blue;
+    font-size: 40px;
+    font-family: "Caveat";
+    text-decoration: underline;
+}
+
+.ra {
+    font-family: "Roboto";
+    font-weight: 800;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+
+.f {
+    font-size: 40px;
+    margin-left: 15px;
+    font-family: "monospace";
+    font-weight: bold;
+
+}
+
+.i {
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.pa {
+    font-size: 30px;
+    font-family: "Roboto";
+}
+
+.im {
+    height: 250px;
+    width: 350px;
+}
+
+.pai {
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
+.ima {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.si {
+    height: 500px;
+    width: 500px;
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #006646;
+    border: none;
+    font-weight: 900;
+    height: 90px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 25px;
+    font-size: 25px;
+    padding: 18px;
+}

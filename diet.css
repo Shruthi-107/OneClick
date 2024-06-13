@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f7f6;
+    font-family:Proxima Nova,sans-serif;
+}
+
+
+p{
+    color: rgb(46, 44, 44);
+}
+nav{
+    display: flex;
+    background-color: #00856f;
+    position: sticky;
+    top: 0;
+    /* justify-content: space-between; */
+    padding:4px 64px;
+
+}
+.nav-item{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+.container-fluid-left{
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+
+.logo{
+    height: 56px;
+    margin-right: 45px;
+}
+.container-fluid-right{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: center;
+    
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    display: inline-block;
+}
+.login button,.signup button{
+    width: 75.15px;
+    height: 36.8px;
+    border: 0;
+    outline: 0;
+    padding: 8px 10px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.login button{
+    background-color: #ffc501;
+    color: #ffff;
+}
+.signup button{
+    background-color: #00856f;
+    color: #ffff;
+    border: 3px solid #ffff;
+}
+
+/* Interchange color and styles on hover login and signup button */
+.login button:hover {
+    background-color: #ffff;
+    color: #ffc501;
+    /* border: 3px solid #ffff; */
+  }
+  
+  .signup button:hover {
+    background-color: #ffff;
+    color: #00856f;
+    
+  }
+
+.home {
+    display: flex;
+    align-items: center;
+
+    margin-right:20px;
+    margin-left: 40px;
+    justify-content: space-around;
+    padding: 30px 0px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    column-gap: 5px;
+}
+.im1 {
+    padding: 40px;
+    border-radius: 50%;
+}
+
+
+.heading {
+    font-size: 20px;
+    width: 50%;
+} 
+/* scrollig effect for website after removing grid for home */
+ section{
+    min-height: calc(100vh - 56px); /* Subtract the height of the navigation bar */
+    block-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    /* background-color: violet; */
+}
+
+/* .section_home{
+    background-image: url(https://livedemo00.template-help.com/wt_prod-15884/images/slide-03.jpg);
+} */
+ 
+/* html {
+    scroll-snap-type: y mandatory;
+}   */
+/*section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  
+
+
+.h11 {
+    font-size: 70px;
+    font-family: Domaine Display,Times New Roman,sans-serif;
+    font-weight: 70;
+    color: #00856f;
+    display:inline-block;
+    /* padding:60px; */
+}
+
+.h12{
+    margin-left: 110px;
+}
+
+.h13{
+    color: #ffc501;
+    /* margin-left: 40px; */
+    border:5px solid #ffc501;
+    border-radius: 10px;
+    padding:5px 15px;
+    /* text-decoration: solid; */
+
+}
+
+.bmi_left{
+    border: 3px solid #00856f;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.bmi_head h1{
+    text-align: center;
+    font-size: 40px;
+    color: #00856f;
+}
+
+.bmi_form{
+    display: flex;
+    align-items: center;
+    margin-right:20px;
+    margin-left: 40px;
+    justify-content: space-around;
+    padding: 30px 0px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+     column-gap: 5px;
+}
+
+.bmitable th{
+    color: #00856f;
+    font-size: 18px;
+    text-align: left;
+}
+
+.bmitable input{
+    border: 2px solid #00856f;
+    border-radius: 10px;
+    height: 35px;
+    width: 260px;
+    padding: 10px; 
+}
+
+.bmi_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.check button,.reset button{
+    
+    height: 36.8px;
+    border: 0;
+    font-weight: bold;
+    /*outline: 0; */
+    color: white;
+    padding: 8px 10px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    justify-content: center;
+    background-color:#00856f;
+}
+.check button{
+    width: 100px;
+}
+.reset button{
+    width: 100px;
+}
+
+.check button:hover,.reset button:hover {
+    background-color: #ffc501;
+    color: #ffff;
+  }
+/*.im2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div {
+    position: relative;
+    width: 400px;
+}
+
+.center {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    top: 40%;
+    left: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bmihead {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    font-size: 70px;
+}
+
+.bmip {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.bmitable {
+    margin-left: 150px;
+}
+
+.bmiimg {
+    margin-right: 500px;
+}
+
+.bmidiv {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.bmibut {
+    border-radius: 30px;
+    background-color: aqua;
+}
+/* section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   */
+/* .h11 {
+    font-size: 90px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #00856f;
+    display:inline-block;
+} */
+
+    /* padding:60px; */
+
